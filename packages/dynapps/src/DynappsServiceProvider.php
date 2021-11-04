@@ -1,8 +1,5 @@
 <?php
-
-
 namespace Adylcodes\Dynapps;
-
 
 use Illuminate\Support\ServiceProvider;
 
