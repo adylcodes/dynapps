@@ -1,0 +1,26 @@
+{
+    "name": "adylcodes/dynapps",
+    "description": "A package of API's to built dynamic app screen contents",
+    "type": "library",
+    "authors": [
+        {
+            "name": "adylcodes",
+            "email": "adylcodes@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Adyl\\Dynapps\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adylcodes\\Dynapps\\DynappsServiceProvider"
+            ]
+        }
+    }
+}
