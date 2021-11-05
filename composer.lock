@@ -4,8 +4,40 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "789a1ec76ed15adb6d0d4cbf20ab1ccc",
+    "content-hash": "9d625916d953c8b45692e2d70bdf0ed8",
     "packages": [
+        {
+            "name": "adylcodes/dynapps",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/dynapps",
+                "reference": "4a5b753591a086ff80b73147e7fbac5760f1ef3d"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Adylcodes\\Dynapps\\DynappsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Adylcodes\\Dynapps\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "adylcodes",
+                    "email": "adylcodes@gmail.com"
+                }
+            ],
+            "description": "A package of API's to built dynamic app screen contents",
+            "transport-options": {
+                "relative": true
+            }
+        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.0.3",
@@ -7949,7 +7981,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "adylcodes/dynapps": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
